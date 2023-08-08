@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"incipher.io/shamir/utils"
+	"github.com/slashbinslashnoname/shamir/utils"
 )
 
 const (

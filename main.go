@@ -4,9 +4,9 @@ import (
 	"os"
 	"syscall"
 
+	"github.com/slashbinslashnoname/shamir/cmd"
+	"github.com/slashbinslashnoname/shamir/utils"
 	"golang.org/x/term"
-	"incipher.io/shamir/cmd"
-	"incipher.io/shamir/utils"
 )
 
 func main() {

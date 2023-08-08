@@ -20,26 +20,26 @@ archives:
       amd64: x86_64
 
 checksum:
-  name_template: 'checksums.txt'
+  name_template: "checksums.txt"
 
 snapshot:
-  name_template: '{{ .Tag }}'
+  name_template: "{{ .Tag }}"
 
 changelog:
   sort: asc
   filters:
     exclude:
-      - '^docs:'
-      - '^test:'
+      - "^docs:"
+      - "^test:"
 
 brews:
   - tap:
       owner: incipher
       name: homebrew-tap
-    homepage: https://incipher.io/shamir
+    homepage: https://github.com/slashbinslashnoname/shamir
     description: "Split and combine secrets using Shamir's Secret Sharing algorithm."
     license: CC0
-    url_template: 'https://github.com/incipher/shamir/releases/download/{{ .Tag }}/{{ .ArtifactName }}'
+    url_template: "https://github.com/slashbinslashnoname/shamir/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     test: |
       system "#{bin}/shamir --version"
     skip_upload: true

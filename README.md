@@ -5,7 +5,7 @@
 
   <p>Split and combine secrets using <a href="https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing">Shamir's Secret Sharing</a> algorithm</p>
 
-  <a href="https://github.com/incipher/shamir/releases/latest">
+  <a href="https://github.com/slashbinslashnoname/shamir/releases/latest">
     <img src="https://img.shields.io/github/release/incipher/shamir.svg?style=for-the-badge" />
   </a>
 </div>

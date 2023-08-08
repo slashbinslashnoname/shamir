@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/vault/shamir"
-	"incipher.io/shamir/utils"
+	"github.com/slashbinslashnoname/shamir/utils"
 )
 
 // Reconstructs a secret from shares.

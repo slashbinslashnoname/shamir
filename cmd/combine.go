@@ -7,8 +7,8 @@ import (
 	"github.com/manifoldco/promptui"
 	"github.com/spf13/cobra"
 
-	"incipher.io/shamir/shamir"
-	"incipher.io/shamir/utils"
+	"github.com/slashbinslashnoname/shamir/shamir"
+	"github.com/slashbinslashnoname/shamir/utils"
 )
 
 // Generates the combine command.

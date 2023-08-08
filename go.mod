@@ -1,4 +1,4 @@
-module incipher.io/shamir
+module github.com/slashbinslashnoname/shamir
 
 go 1.20
 
